@@ -9,7 +9,7 @@
         
         $sql = "SELECT * FROM reply LEFT JOIN user ON reply.author_id = user.user_id WHERE reply.thread_id = '$id' ORDER BY reply.create_date DESC";
         
-        $con=mysqli_connect("fdb28.awardspace.net","3737981_web","DDeeaa123!","3737981_web");
+        $con=mysqli_connect("fdb28.awardspace.net","3737981_web","***","3737981_web");
         
         if (mysqli_connect_errno()){
               echo "Failed to connect to MySQL: ".    
