@@ -2,7 +2,7 @@
         date_default_timezone_set('America/Los_Angeles');
         $game=$_GET["game"];
         $sql = "SELECT * FROM thread as t JOIN game as g ON t.game_id = g.game_id JOIN user as u ON u.user_id = t.author_id WHERE g.game_name = '$game' ORDER BY t.last_reply_date DESC";
-        $con=mysqli_connect("fdb28.awardspace.net","3737981_web","DDeeaa123!","3737981_web");
+        $con=mysqli_connect("fdb28.awardspace.net","3737981_web","***","3737981_web");
         if (mysqli_connect_errno()){
               echo "Failed to connect to MySQL: ".    
               mysqli_connect_error();
