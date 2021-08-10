@@ -1,7 +1,7 @@
 <?php
         date_default_timezone_set('America/Los_Angeles');
         $sql = "SELECT * FROM game_view";
-        $con=mysqli_connect("fdb28.awardspace.net","3737981_web","DDeeaa123!","3737981_web");
+        $con=mysqli_connect("fdb28.awardspace.net","3737981_web","***","3737981_web");
         if (mysqli_connect_errno()){
               echo "Failed to connect to MySQL: ".    
               mysqli_connect_error();
