@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
+}
+
+.btn-outline-primary{
+    background-color: transparent;
+    color: #428bca;
+    border-color: #428bca;
+    /*border-color: #1b2838;*/
+    /*color: #1b2838;*/
+    margin: 0 10px 0 10px;
+    width: 100px;
+}
+
+.btn-outline-primary:hover{
+    background-color: transparent;
+    color: #428bca;
+    border-color: #428bca;
+    /*color: #2a475e;*/
+    /*border-color: #2a475e;*/
+
+    filter: brightness(80%);
+}
+
+.btn-primary{
+    background-color: #428bca;
+    border-color: #428bca;
+    /*border-color: #1b2838;*/
+    /*background-color: #1b2838;*/
+    width: 100px;
+    margin: 0 10px 0 10px;
+}
+
+.btn-primary:hover{
+    /*background-color: #2a475e;*/
+    /*border-color: #2a475e;*/
+    background-color: #428bca;
+    border-color: #428bca;
+    filter: brightness(110%);
+}
+
+.btn:focus{
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.navbar-brand {
+    margin: 0 10px 0 10px;
+    font-style: italic;
+    color: #428bca;
+    /*color: #1b2838;*/
+}
+
+.footer{
+    /*background-color: #428bca;*/
+    height: 40px;
+    margin-top: 50px;
+    /*position: fixed;*/
+    bottom: 0;
+}
+
+#banner {
+    margin-top: 30px;
+}
+
+#imgbanner{
+    height: 400px;
+}
+
+#thread{
+    margin: 20px 0 10px 0;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+/*.list-group {*/
+/*    margin: 20px;*/
+/*}*/
+.card{
+    margin: 20px;
+}
+

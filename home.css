@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, serif;
+}
+.btn-outline-primary{
+    background-color: transparent;
+    color: #428bca;
+    border-color: #428bca;
+    margin: 0 10px 0 10px;
+    width: 100px;
+}
+
+.btn-outline-primary:hover{
+    background-color: transparent;
+    color: #428bca;
+    border-color: #428bca;
+
+    filter: brightness(80%);
+}
+
+.btn-primary{
+    background-color: #428bca;
+    border-color: #428bca;
+    width: 100px;
+    margin: 0 10px 0 10px;
+}
+
+.btn-primary:hover{
+    background-color: #428bca;
+    border-color: #428bca;
+    filter: brightness(110%);
+}
+
+.navbar-brand {
+    margin: 0 10px 0 10px;
+    font-style: italic;
+    color: #428bca;
+}
+
+.container{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 50px;
+    background-size: 100%, 100%;
+    /*border-radius: 50%;*/
+    /*border: 1px solid;*/
+    background-color: gainsboro;
+}
+.carousel-control-next, .carousel-control-prev{
+    height: 700px;
+    width: 100px;
+}
+
+.list-group-item {
+    outline: transparent;
+    border: transparent;
+}
+
+.gamecat{
+    font-style: italic;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.badge{
+    background-color: #428bca;
+}
+
+.footer{
+    background-color: #428bca;
+    height: 40px;
+    margin-top: 50px;
+    /*position: fixed;*/
+    bottom: 0;
+}
+
+#discussion {
+    background-color: #f9f9f9;
+    padding:20px;
+}
+
+.card-title:hover {
+    text-decoration: underline;
+}
+.card{
+    border: transparent;
+    padding-bottom : 20px;
+}
+
+.game_discussion {
+    color: black;
+    font-size: 15pt;
+    text-decoration: none;
+    background-color: transparent;
+    border:0px;
+    outline:none;
+    
+}
+.game_discussion:hover{
+    color: black;
+    outline: none;
+    text-decoration: underline;
+    
+}
+
+.game_discussion:focus:active{
+    text-decoration: underline;
+    outline: none;
+    border:none;
+    
+}
+
+
+/*body{*/
+/*    background-color: #171a21;*/
+    /*opacity: 80%;*/
+/*}*/
